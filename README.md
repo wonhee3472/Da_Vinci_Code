@@ -2,7 +2,7 @@
 
 ## Contributors
 1. Wonhee Yun
-2.Sarah Abraham
+2. Sarah Abraham
 3.
 4.
 
