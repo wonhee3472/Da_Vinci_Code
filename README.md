@@ -3,8 +3,8 @@
 ## Contributors
 1. Wonhee Yun
 2. 
-3. Jane Mathew
-4.
+3. 
+4. Jane Mathew
 
 ## A Quick Guide to Get Started
 
