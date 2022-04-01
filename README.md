@@ -2,7 +2,7 @@
 
 ## Contributors
 1. Wonhee Yun
-2.
+2. Jane Mathew
 3.
 4.
 
