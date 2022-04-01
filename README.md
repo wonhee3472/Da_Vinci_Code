@@ -4,7 +4,7 @@
 1. Wonhee Yun
 2. Sarah Abraham
 3.
-4. Crystal Tallent
+4. 
 
 ## A Quick Guide to Get Started
 
