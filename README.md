@@ -3,7 +3,7 @@
 ## Contributors
 1. Wonhee Yun
 2. Sarah Abraham
-3.
+3. Jane Mathew
 4. Crystal Tallent
 
 ## A Quick Guide to Get Started
@@ -11,7 +11,7 @@
 1. On this page for this repository, click on the button `Fork` at the top right-hand corner.
 
 2. Clone your **forked repository** to your computer (make sure to replace `your-github-username`):
-  > git clone https://github.com/your-github-username/Da_Vinci_Code.git
+  > git clone https://github.com/java2509/Da_Vinci_Code.git
 
 3. In your terminal/command prompt, shift to project directory:
   > cd Da_Vinci_Code
