@@ -5,7 +5,7 @@
 1. Wonhee Yun - wonhee3472
 2. Sarah Abraham
 3. Jane Mathew
-4. Crystal Tallent
+4. Crystal Tallent - crtallent
 
 ## A Quick Guide to Get Started
 
