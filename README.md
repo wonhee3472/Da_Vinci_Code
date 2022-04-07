@@ -3,7 +3,7 @@
 ## Contributors
 
 1. Wonhee Yun - wonhee3472
-2. Sarah Abraham
+2. Sarah Abraham - abesarah
 3. Jane Mathew
 4. Crystal Tallent
 
