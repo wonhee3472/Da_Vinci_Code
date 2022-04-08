@@ -1,9 +1,9 @@
-# Da_Vinci_Code
 
-## Contributors
+Content
+The team members have drafted their project, including the following:
 
-1. Wonhee Yun - wonhee3472
-2. Sarah Abraham - abesarah
-3. Jane Mathew - java2509
-4. Crystal Tallent - crtallent
-
+Selected topic
+Reason they selected the topic
+Description of the source of data
+Questions they hope to answer with the data
+Description of the communication protocols
