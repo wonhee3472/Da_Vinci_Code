@@ -1,0 +1,21 @@
+CREATE TABLE stellar (
+	obj_ID float NOT NULL,
+	alpha float NOT NULL,
+	delta float NOT NULL,
+	u float NOT NULL,
+	g float NOT NULL,
+	r float NOT NULL,
+	i float NOT NULL,
+	z float NOT NULL,
+	run_ID int NOT NULL,
+	rerun_ID int NOT NULL,
+	cam_col int NOT NULL,
+	field_ID int NOT NULL,
+	spec_obj_ID float NOT NULL,
+	class varchar NOT NULL,
+	redshift float NUL NULL,
+	plate int NOT NULL,
+	MJD int NOT NULL,
+	fiber_ID int NOT NULL
+	
+);
