@@ -81,8 +81,10 @@ Abdurro’uf et al., The Seventeenth data release of the Sloan Digital Sky Surve
 
 ### Description of the communication protocols:
 
-Slack, Zoom, Google Sheets, Github Repo
-
+- We will be communicating with each other via Slack
+- We will be brainstorming and exchanging ideas using Zoom
+- We will be writing up our action items and assigning roles by using Google Sheets
+- We will be storing/reviewing our works (e.g., codes) on this Github Repository
 
 The Team:
 
