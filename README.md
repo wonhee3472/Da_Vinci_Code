@@ -16,6 +16,8 @@ While efforts such as Galaxy Zoo (Lintott et al. 2008, 2011) bring in many more 
 
 ### Description of the source of data:
 
+We chose the dataset from the Kaggle.com, we choose the dataset for its number of data points, compl
+
 https://www.kaggle.com/datasets/fedesoriano/stellar-classification-dataset-sdss17
 
 The dataset consists of 100k observations of space taken by the SDSS. Every observation is described by 17 feature columns and 1 class column which identifies it to be either a star, galaxy or quasar.
@@ -59,6 +61,7 @@ The columns are as follows:
 17.) fiber_ID = fiber ID that identifies the fiber that pointed the light at the focal plane in each observation
 
 Acknowledgements:
+
 The data released by the SDSS is under public domain. Its taken from the current data release RD17.
 
 More information about the license: http://www.sdss.org/science/image-gallery/
