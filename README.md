@@ -72,6 +72,9 @@ Abdurro’uf et al., The Seventeenth data release of the Sloan Digital Sky Surve
 
 
 ### Questions we hope to answer with the data:
+-Which algorithm is best for predicting unbiased outcomes?
+-Which filter in the photometric system is best for categorizing Stars/ Galaxies/ Quasars?
+-Which machine learning algorithm has the most accurate precision results?
 
 Description of the communication protocols:
 
