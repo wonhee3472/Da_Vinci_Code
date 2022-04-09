@@ -2,12 +2,12 @@
 
 ### Abstract:
 
-Apply various machine learning models to classify Stars, Galaxies, and Quasars based on spectral characteristics using 100k labeled sources from **The Sloan Digital Sky Survey** (SDSS) data release 17. 
+Apply various machine learning models to classify Stars, Galaxies, and Quasars based on spectral characteristics using 100K labeled sources from **The Sloan Digital Sky Survey** (SDSS) data release 17. 
 
 
 ### Purpose:
 
-The early classification, distribution, and cataloging of stars have helped us understand how they make up our galaxy. To accelerate discoveries in astronomy and astrophysics through the support of an all-sky spectroscopic observation program that uses telescopes in both hemispheres to comprehensively map the night sky, examine the history and structure of the universe, and probe the physics of black holes. 
+In astronomy the early classification, distribution, and cataloging of stars have helped us understand how they make up our galaxy. This classification scheme has accelerated discoveries in astronomy and astrophysics through the support of an all-sky spectroscopic observation program that uses telescopes in both hemispheres to comprehensively map the night sky, examine the history and structure of the universe, and probe the physics of black holes. 
 
 These next-generation telescopes are predicted to significantly increase the size of source catalogs and data and it will become unfeasible for astronomers to manually verify and label individual sources.
 
