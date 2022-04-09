@@ -2,7 +2,7 @@
 
 ### Abstract:
 
-We use 100k labelled sources from **The Sloan Digital Sky Survey** (here on referred to as SDSS) data release 17 to apply various machine learning models to classify Stars, Galaxies and Quasars based on spectral characterisitcs.
+Apply various machine learning models to classify Stars, Galaxies, and Quasars based on spectral characteristics using 100k labeled sources from **The Sloan Digital Sky Survey** (SDSS) data release 17. 
 
 
 ### Purpose:
