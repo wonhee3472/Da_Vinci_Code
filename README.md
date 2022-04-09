@@ -16,7 +16,7 @@ While efforts such as Galaxy Zoo (Lintott et al. 2008, 2011) bring in many more 
 
 ### Description of the source of data:
 
-We chose the dataset from the Kaggle.com, we choose the dataset for its number of data points, completness of the data
+We chose the dataset from Kaggle.com, and we chose it for its number of data points and completness of the data.
 
 https://www.kaggle.com/datasets/fedesoriano/stellar-classification-dataset-sdss17
 
