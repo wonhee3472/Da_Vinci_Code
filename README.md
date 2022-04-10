@@ -3,7 +3,7 @@
 
 ### Abstract:
 
-Apply various machine learning models to classify Stars, Galaxies, and Quasars based on spectral characteristics using 100K labeled sources from **The Sloan Digital Sky Survey** (SDSS) data release 17. 
+Apply various machine learning algorithms to classify Stars, Galaxies, and Quasars based on spectral characteristics using `100,000` labeled sources from **The Sloan Digital Sky Survey** (SDSS) data release 17. 
 
 
 ### Purpose:
@@ -12,17 +12,18 @@ In astronomy the early classification, distribution, and cataloging of stars hav
 
 These next-generation telescopes are predicted to significantly increase the size of source catalogs and data and it will become unfeasible for astronomers to manually verify and label individual sources.
 
-While efforts such as Galaxy Zoo (Lintott et al. 2008, 2011) bring in many more people to help sift through data, this effort alone is not expected to be able to keep up with the source counts anticipated for the next generation of telescopes. For such large datasets, machine learning algorithms are becoming an increasingly valuable tool for analysis and data exploration. The development of such algorithms in computer science fields has accelerated rapidly in the last decade, focusing on processing large datasets in high performance computing workflows and cloud computing systems (Jones 2014; Wu et al. 2016).
+"While efforts such as Galaxy Zoo (Lintott et al. 2008, 2011) bring in many more people to help sift through data, these efforts alone are not expected to be able to keep up with the source counts anticipated for the next generation of telescopes." For such large datasets, machine learning algorithms are becoming an increasingly valuable tool for analysis and data exploration. "The development of such algorithms in computer science fields has accelerated rapidly in the last decade, focusing on processing large datasets in high performance computing workflows and cloud computing systems (Jones 2014; Wu et al. 2016)."
 
 
 ### Description of the source of data:
 
-We chose the dataset from Kaggle.com, and we chose it for its number of data points and completness of the data.
+We chose the dataset from Kaggle.com, and we chose it for the number of data points, completeness and usability of the data.
 
 https://www.kaggle.com/datasets/fedesoriano/stellar-classification-dataset-sdss17
 
-The dataset consists of 100k observations of space taken by the SDSS. Every observation is described by 17 feature columns and 1 class column which identifies it to be either a star, galaxy or quasar.
+The dataset consists of 100,000 observations of space taken by the SDSS. Every observation is described by 17 feature columns and 1 class column which identifies it to be either a star, galaxy or quasar.
 
+```
 The columns are as follows:
 
 1.) obj_ID = Object Identifier, the unique value that identifies the object in the image catalog used by the CAS
@@ -60,10 +61,11 @@ The columns are as follows:
 16.) MJD = Modified Julian Date, used to indicate when a given piece of SDSS data was taken
 
 17.) fiber_ID = fiber ID that identifies the fiber that pointed the light at the focal plane in each observation
+```
 
-Acknowledgements:
+### Acknowledgements:
 
-The data released by the SDSS is under public domain. Its taken from the current data release RD17.
+The data released by the SDSS is under public domain. It's taken from the current data release RD17.
 
 More information about the license: http://www.sdss.org/science/image-gallery/
 
@@ -74,11 +76,11 @@ Abdurro’uf et al., The Seventeenth data release of the Sloan Digital Sky Surve
 
 ### Questions we hope to answer with the data:
 
-  -Which algorithm is best for predicting unbiased outcomes for each class?
+  - Which algorithm is best for predicting unbiased outcomes for each class?
 
-  -Which filter in the photometric system is best for categorizing Stars/ Galaxies/ Quasars?
+  - Which filter in the photometric system is best for categorizing Stars/ Galaxies/ Quasars?
 
-  -Which machine learning algorithm has the most accurate precision results?
+  - Which machine learning algorithm predicts the most accurate results?
 
 ### Description of the communication protocols:
 
@@ -93,14 +95,15 @@ Abdurro’uf et al., The Seventeenth data release of the Sloan Digital Sky Surve
   -Git Hub: We will be storing/reviewing our work (e.g., code, dataset, database) on this Github Repository.
   
  ### Dashboad
+ 
  We will be building a webpage using HTML, CSS, Bootstrap, and JavaScript and deploy it on GitHub pages. 
 
-The Team:
+### The Team:
 
-1.) Crystal Tallent - crtallent
+1.) Crystal Tallent - [crtallent](https://github.com/crtallent)
 
-2.) Jane Mathew - java2509
+2.) Jane Mathew - [java2509](https://github.com/java2509)
 
-3.) Sarah Abraham - abesarah
+3.) Sarah Abraham - [abesarah](https://github.com/abesarah)
 
-4.) Wonhee Yun - wonhee3472
+4.) Wonhee Yun - [wonhee3472](https://github.com/wonhee3472)
