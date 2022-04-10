@@ -82,11 +82,15 @@ Abdurro’uf et al., The Seventeenth data release of the Sloan Digital Sky Surve
 
 ### Description of the communication protocols:
 
-  - Slack: We are using this platform to constantly communicate ideas, sharing updates and checking on each other.
-  - Zoom: We use this platform to brainstorm and code together.
-  - Google Sheets: We use this platform as a project management tool to assign taks and check off tasks for each role, as well as track progress.
-  - Google Docs : We are using this platform to create mockups for our Read Me and share technical informationan about our dataset. 
-  - Git Hub: We will be storing/reviewing our work (e.g., code, dataset, database) on this Github Repository.
+  -Slack: We are using this platform to constantly communicate ideas, sharing updates and checking on each other.
+  
+  -Zoom: We use this platform to brainstorm and code together.
+  
+  -Google Sheets: We use this platform as a project management tool to assign taks and check off tasks for each role, as well as track progress.
+  
+  -Google Docs : We are using this platform to create mockups for our Read Me and share technical informationan about our dataset. 
+  
+  -Git Hub: We will be storing/reviewing our work (e.g., code, dataset, database) on this Github Repository.
 
 The Team:
 
