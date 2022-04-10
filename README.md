@@ -1,5 +1,5 @@
 ## Classification of Stars, Galaxies and Quasars based on spectral characterisitcs. 
-
+![](Resources/HHow-Do-Stars-Move-Astronomy-i521234792-1184x630.webp)
 
 ### Abstract:
 
