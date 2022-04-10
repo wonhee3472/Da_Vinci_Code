@@ -1,5 +1,6 @@
 ## Classification of Stars, Galaxies and Quasars based on spectral characterisitcs. 
 
+
 ### Abstract:
 
 Apply various machine learning models to classify Stars, Galaxies, and Quasars based on spectral characteristics using 100K labeled sources from **The Sloan Digital Sky Survey** (SDSS) data release 17. 
