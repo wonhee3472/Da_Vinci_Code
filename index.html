@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="static/css/style.css" />
+    <title>Stars Classification</title>
+  </head>
+  <body class="bg-secondary">
+    <div class="wrapper">
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-expand-lg sticky-top bg-secondary">
+        <a class="navbar-brand text-white" href="index.html"
+          >Stars Classification</a
+        >
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+      <!-- Page Header -->
+      <div class="jumbotron jumbotron-fluid">
+        <h1 class="display-4">Counting Stars</h1>
+      </div>
+
+      <!-- Filter | Table -->
+      <div class="container-fluid">
+        <div class="row">
+          <!-- Filter -->
+          <div class="col-md-2">
+            <form class="bg-secondary" action="">
+              <p>Filter Search</p>
+              <ul class="list-group bg-secondary">
+                <!-- input -->
+                <li class="list-group-item bg-secondary">
+                  <label for="obj_id">Enter Object ID</label>
+                  <select id=obj_id"></select>
+                </li>
+                <li class="list-group-item bg-secondary">
+                  <label for="redshift">Enter Redshift</label>
+                  <select name="" id="redshift" ></select>
+                </li>
+                <li class="list-group-item bg-secondary">
+                  <label for="plate">Enter Plate</label>
+                  <select name="" id="plate"></select>
+                </li>
+                <li class="list-group-item bg-secondary">
+                  <label for="MJD">Enter MJD</label>
+                  <select name="" id="MJD"></select>
+                </li>
+                <li class="list-group-item bg-secondary">
+                  <label for="fiber_id">Enter Fiber ID</label>
+                  <select name="" id="fiber_id"></select>
+                </li>
+                <li style="list-style:none">
+                    <button class="list-group-item btn btn-outline-dark">
+                    Filter Table
+                    </button>
+                </li>
+              </ul>
+            </form>
+          </div>
+          <!-- Table -->
+          <div class="col-md-10">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Object ID</th>
+                  <th>Alpha</th>
+                  <th>Delta</th>
+                  <th>U</th>
+                  <th>G</th>
+                  <th>R</th>
+                  <th>I</th>
+                  <th>Z</th>
+                  <th>Run ID</th>
+                  <th>Rerun ID</th>
+                  <th>Cam Column</th>
+                  <th>Field ID</th>
+                  <th>Special Object ID</th>
+                  <th>Class</th>
+                  <th>Redshift</th>
+                  <th>Plate</th>
+                  <th>MJD</th>
+                  <th>Fiber_ID</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <script src="static/js/stars.js"></script>
+    <script src="static/js/app.js"></script>
+  </body>
+</html>
