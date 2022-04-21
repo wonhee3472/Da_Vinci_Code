@@ -1,10 +1,4 @@
-body {
-    color: #f7f7f7;
-}
-
-.jumbotron {
-    width: 100%;
-    background-image: url(../img/stars2.jpg);
-    background-size: auto;
-    text-align: center;
-}
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  }
