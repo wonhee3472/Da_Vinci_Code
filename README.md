@@ -89,11 +89,11 @@ Our first step in exploring our data was to complete an EDA. With use of pandas,
 
 From our data exploration we concluded that the spec_obj_ID column had the most unique values and should be used as our index. 
 
-Based on our research, we found that run_ID, rerun_ID, cam_col, field_ID, obj_ID, plate, MJD, fiber_ID all related to image computing process. This led to the conclusion that these columns did not actually provide distinctive characteristics of each stellar object and therefore should be dropped. 
+Based on our research, we found that run_ID, rerun_ID, cam_col, field_ID, obj_ID, plate, MJD, fiber_ID all related to the image computing process. This led to the conclusion that these columns did not actually provide spectral characteristics for each stellar object and therefore should be dropped. 
 
-With the tableau visualization we deduced that quasars have a higher redshift, which correlates with proven scientific findings.
+From our initial tableau visualization we deduced that quasars have a higher redshift, which correlates with scientific findings.
 
-### Outline of project 
+### Outline of the project 
 
 ### Description of preliminary data preprocessing:
 
@@ -117,8 +117,9 @@ With the tableau visualization we deduced that quasars have a higher redshift, w
 
   - LogisticRegression: 
      - We used a multinomial model and we achieved a 92% accuracy rate for oversampling and 94% accuracy for undersampling.
-Limitations
-Benefits
+Limitations: yeilds better results for binary outcomes
+Benefits: Known for classification 
+
   - RandomForestClassifer:
      - We achieved a 97.2% accuracy rate for oversampling and a 97.3% accuracy for undersampling.
 Limitations:
