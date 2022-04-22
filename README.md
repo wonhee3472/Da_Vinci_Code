@@ -87,8 +87,43 @@ Our first step in exploring our data was to complete an EDA. With use of pandas,
 
 ### Description of analysis phase
 
+From our data exploration we concluded that the spec_obj_ID column had the most unique values and should be used as our index. 
+
+Based on our research, we found that run_ID, rerun_ID, cam_col, field_ID, obj_ID, plate, MJD, fiber_ID all related to image computing process. This led to the conclusion that these columns did not actually provide distinctive characteristics of each stellar object and therefore should be dropped. 
+
+With the tableau visualization we deduced that quasars have a higher redshift, which correlates with proven scientific findings.
 
 ### Outline of project 
+
+### Description of preliminary data preprocessing:
+
+  - First, we dropped all the columns that were not related to spectral characteristics (alpha','delta','run_ID','rerun_ID', 'cam_col', 'field_ID', "obj_ID",'plate', 'MJD', 'fiber_ID')
+
+  - Second, we set the spec_obj_id as our index column since it’s the distinct identifier.
+
+### Description of preliminary feature engineering and preliminary feature selection, including their decision-making process 
+
+  - We acquired 6 columns after the clean-up of data. Then we decided to do variable engineering and created bins for every quartile for the columns ‘u’, ‘g’, ‘r’, ‘i’, and ‘z’.
+
+  - We created our features. For the X variable, we dropped the `Class` column and for the Y variable we created our target which was the `Class` column.
+
+### Description of how data was split into training and testing sets 
+
+  - We split our data into training and testing sets and set our `random_state` to 1.
+
+  - We counted our `y_train` and the result was Counter({'GALAXY': 44584, 'STAR': 16195, 'QSO': 14221}). We deduced that there is a high number of `GALAXY` training data and that the dataset is slightly imbalanced. Thus, we decided to do oversampling and undersampling. And the models we implemented were `LogisticRegression`, `RandomForestClassifier`, and `SupportVectorMachine`.
+
+### Explanation of model choice, including limitations and benefits
+
+  - LogisticRegression: 
+     - We used a multinomial model and we achieved a 92% accuracy rate for oversampling and 94% accuracy for undersampling.
+Limitations
+Benefits
+  - RandomForestClassifer:
+     - We achieved a 97.2% accuracy rate for oversampling and a 97.3% accuracy for undersampling.
+Limitations:
+Benefits:
+
 
 ### Description of the communication protocols:
 
