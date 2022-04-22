@@ -79,6 +79,17 @@ Abdurro’uf et al., The Seventeenth data release of the Sloan Digital Sky Surve
 
   - Which machine learning algorithm predicts the most accurate results?
 
+### Description of data exploration
+
+Our first step in exploring our data was to complete an EDA. With use of pandas, we found that our data set has no nulls but a few outliers. When we looked at the unique values for each column we noticed that spec_obj_ID was the only column to have 100,000 unique values. We then moved on to separate the three stellar objects where we found the majority of the data points belonged to galaxies, followed by stars and quasars respectively. Finally, we used seaborn to graph histograms and boxplots of our target variables against the other columns.  From these visualizations we noticed the differences between each stellar object and the different photometric filters. as well as noticeable outliers in the redshift, i and z columns. 
+
+[EDA] (https://github.com/wonhee3472/Da_Vinci_Code/blob/dc224c4e0888f3863b310c12aa64bb629ec46890/EDA_04_11.ipynb)
+
+### Description of analysis phase
+
+
+### Outline of project 
+
 ### Description of the communication protocols:
 
   - Slack: We are using this platform to constantly communicate ideas, sharing updates and checking on each other.
