@@ -97,19 +97,21 @@ From our initial tableau visualization we deduced that quasars have a higher red
 
 ### Description of preliminary data preprocessing:
 
-  - First, we dropped all the columns that were not related to spectral characteristics (alpha','delta','run_ID','rerun_ID', 'cam_col', 'field_ID', "obj_ID",'plate', 'MJD', 'fiber_ID')
+  - All the columns that were not related to spectral characteristics (alpha','delta','run_ID','rerun_ID', 'cam_col', 'field_ID', "obj_ID",'plate', 'MJD', 'fiber_ID') were dropped.
 
-  - Second, we set the spec_obj_id as our index column since it’s the distinct identifier.
+  - The spec_obj_id is our index column since it is a unique identifier.
 
 ### Description of preliminary feature engineering and preliminary feature selection, including their decision-making process 
 
-  - We acquired 6 columns after the clean-up of data. Then we decided to do variable engineering and created bins for every quartile for the columns ‘u’, ‘g’, ‘r’, ‘i’, and ‘z’.
+  - There were 6 columns after the clean-up of data. Variable engineering was performed and the 'u','g','r','i','z' columns were binned for every quartile.
 
-  - We created our features. For the X variable, we dropped the `Class` column and for the Y variable we created our target which was the `Class` column.
+  - For the feature selection for the X variable, we dropped the `Class` column and for the Y variable we created our target which was the `Class` column.
 
 ### Description of how data was split into training and testing sets 
 
-  - We split our data into training and testing sets and set our `random_state` to 1.
+  - The model is trained using the `sklearn.model_selection` and imported the `train_test_split` function.
+  -
+  - The We split our data into training and testing sets and set our `random_state` to 1.
 
   - We counted our `y_train` and the result was Counter({'GALAXY': 44584, 'STAR': 16195, 'QSO': 14221}). We deduced that there is a high number of `GALAXY` training data and that the dataset is slightly imbalanced. Thus, we decided to do oversampling and undersampling. And the models we implemented were `LogisticRegression`, `RandomForestClassifier`, and `SupportVectorMachine`.
 
