@@ -140,6 +140,7 @@ The following classification models were choosed as the dataset is the dataset h
 
 
   Limitations: yeilds better results for binary outcomes
+  
   Benefits: Known for classification 
 
   - RandomForestClassifer:
