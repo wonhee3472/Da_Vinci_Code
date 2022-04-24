@@ -132,12 +132,13 @@ From our initial tableau visualization we deduced that quasars have a higher red
 The following classification models were choosed as the dataset is the dataset has multi class classification labels (Star or QSO or Galaxy).
 
   - LogisticRegression:
-     - Results: Oversampling - Stars vs. QSO vs. Galaxies
+     Results: 
+     - We achieved a 96% accuracy rate for oversampling and a 95.% accuracy for undersampling.
+     - Oversampling - Stars vs. QSO vs. Galaxies
     
        ![Oversampling - Stars vs  QSO vs  Galaxies](https://user-images.githubusercontent.com/93900628/164950605-092a9741-a692-403d-815c-5b4549ee5da8.png)
 
-        ![Confusion Matrix - Oversampling Stars vs QSO vs Galaxies](https://user-images.githubusercontent.com/93900628/164950596-0247294b-b42c-40fd-8ab1-6ee035d42695.png)
-
+       ![Confusion Matrix - Oversampling Stars vs QSO vs Galaxies](https://user-images.githubusercontent.com/93900628/164950596-0247294b-b42c-40fd-8ab1-6ee035d42695.png)
 
   Limitations: 
   - Leads to overfitting when observations are less than number of features
@@ -146,15 +147,22 @@ The following classification models were choosed as the dataset is the dataset h
   - Training set must be seperate from other data points
   
   Benefits: 
-  - Known for classification
   - One of the simplest algorithms to test 
   - Efficaint for linearly seperable data
   - Can be used for binary classification, and extended to multi-classification
 
   RandomForestClassifer:
      - We achieved a 97.2% accuracy rate for oversampling and a 97.3% accuracy for undersampling.
-Limitations:
-Benefits:
+     - Oversampling - Stars vs. QSO vs. Galaxies
+       ![Oversampling - Stars vs  QSO vs  Galaxies] ()
+       ![Confusion Matrix - Oversampling Stars vs QSO vs Galaxies]()
+
+     
+  Limitations: 
+  - 
+  
+  Benefits: 
+  - 
 
 
 ### Description of the communication protocols:
