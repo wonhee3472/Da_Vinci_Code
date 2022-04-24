@@ -82,19 +82,19 @@ Abdurro’uf et al., The Seventeenth data release of the Sloan Digital Sky Surve
 
   - Which machine learning algorithm predicts the most accurate results?
 
-### Description of data exploration
+### Description of data exploration and analysis phase
 
-Our first step in exploring our data was to complete an EDA. With use of pandas, we found that our data set has no nulls but a few outliers. When we looked at the unique values for each column we noticed that spec_obj_ID was the only column to have 100,000 unique values. We then moved on to separate the three stellar objects where we found the majority of the data points belonged to galaxies, followed by stars and quasars respectively. Finally, we used seaborn to graph histograms and boxplots of our target variables against the other columns.  From these visualizations we noticed the differences between each stellar object and the different photometric filters. as well as noticeable outliers in the redshift, i and z columns. 
+The Pandas module was used to complete the EDA phase. The data was complete with no null values and the spec_obj_ID column was used as the index since it was the unique identifier.
 
-[EDA] (https://github.com/wonhee3472/Da_Vinci_Code/blob/dc224c4e0888f3863b310c12aa64bb629ec46890/EDA_04_11.ipynb)
-
-### Description of analysis phase
-
-From our data exploration we concluded that the spec_obj_ID column had the most unique values and should be used as our index. 
+The  majority of the dataset comprised of galaxies, followed by stars and quasars.
 
 Based on our research, we found that run_ID, rerun_ID, cam_col, field_ID, obj_ID, plate, MJD, fiber_ID all related to the image computing process. This led to the conclusion that these columns did not actually provide spectral characteristics for each stellar object and therefore should be dropped. 
 
+Histograms and boxplots of our target variables against the other columns were graphed using the Seaborn module. The visualizations yielded that there were notiable differences between each stellar object and the different photometric filters observations. The visualization showed that the redshift,"i" and "r" characteristics had the most outliers.
+
 From our initial tableau visualization we deduced that quasars have a higher redshift, which correlates with scientific findings.
+
+[EDA] (https://github.com/wonhee3472/Da_Vinci_Code/blob/dc224c4e0888f3863b310c12aa64bb629ec46890/EDA_04_11.ipynb)
 
 ### Outline of the project 
 
