@@ -139,9 +139,14 @@ The following classification models were choosed as the dataset is the dataset h
         ![Confusion Matrix - Oversampling Stars vs QSO vs Galaxies](https://user-images.githubusercontent.com/93900628/164950596-0247294b-b42c-40fd-8ab1-6ee035d42695.png)
 
 
-  Limitations: yeilds better results for binary outcomes
+  Limitations: 
+  - Leads to overfitting when observationss are less than number of features
+  - Sensitive to outliers
+  - Assumes independant and dependant variables have a linear relationship 
+  - Training set must be seperate from other data points
   
-  Benefits: Known for classification 
+  Benefits: 
+  - Known for classification 
 
   - RandomForestClassifer:
      - We achieved a 97.2% accuracy rate for oversampling and a 97.3% accuracy for undersampling.
