@@ -163,10 +163,13 @@ The following classification models were choosed as the dataset is the dataset h
      ![RF - Oversampling CM ](https://user-images.githubusercontent.com/93900628/164951962-7135e5b2-ad3d-4c4a-be90-0a3378b6cd2f.png)
 
   Limitations: 
-  - 
+  - Requires more computational power and resources
+ 
   
   Benefits: 
-  - 
+  - Reduces overfitting and improves accuracy
+  - It works well with datasets that has outliers
+  
 
 
 ### Description of the communication protocols:
