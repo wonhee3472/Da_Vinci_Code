@@ -131,9 +131,10 @@ The following classification models were choosed as the dataset is the dataset h
 
   - LogisticRegression:
      - Results: Oversampling - Stars vs. QSO vs. Galaxies
+    
        ![Oversampling - Stars vs  QSO vs  Galaxies](https://user-images.githubusercontent.com/93900628/164950605-092a9741-a692-403d-815c-5b4549ee5da8.png)
 
-      ![Confusion Matrix - Oversampling Stars vs QSO vs Galaxies](https://user-images.githubusercontent.com/93900628/164950596-0247294b-b42c-40fd-8ab1-6ee035d42695.png)
+        ![Confusion Matrix - Oversampling Stars vs QSO vs Galaxies](https://user-images.githubusercontent.com/93900628/164950596-0247294b-b42c-40fd-8ab1-6ee035d42695.png)
 
 
   Limitations: yeilds better results for binary outcomes
