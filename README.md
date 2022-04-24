@@ -103,17 +103,31 @@ From our initial tableau visualization we deduced that quasars have a higher red
 
 ### Description of preliminary feature engineering and preliminary feature selection, including their decision-making process 
 
-  - There were 6 columns after the clean-up of data. Variable engineering was performed and the 'u','g','r','i','z' columns were binned for every quartile.
+  - There were 6 columns after the clean-up of data. Variable engineering was performed and the `u`,`g`,`r`,`i`,`z` columns were binned for each quartile.
 
   - For the feature selection for the X variable, we dropped the `Class` column and for the Y variable we created our target which was the `Class` column.
 
 ### Description of how data was split into training and testing sets 
 
   - The model is trained using the `sklearn.model_selection` and imported the `train_test_split` function.
-  -
-  - The We split our data into training and testing sets and set our `random_state` to 1.
+  
+  - The data was split into training and testing sets and set our `random_state` to 1.
 
-  - We counted our `y_train` and the result was Counter({'GALAXY': 44584, 'STAR': 16195, 'QSO': 14221}). We deduced that there is a high number of `GALAXY` training data and that the dataset is slightly imbalanced. Thus, we decided to do oversampling and undersampling. And the models we implemented were `LogisticRegression`, `RandomForestClassifier`, and `SupportVectorMachine`.
+  - The `y_train` and the result was `('GALAXY': 44584, 'STAR': 16195, 'QSO': 14221)`. 
+  
+  -  The high number of `GALAXY` training data creates a slight imbalance in the dataset. Oversampling and Undersampling methods were applied to the          dataset to create a more balanced dataset . 
+  
+  - The following Machine Learning algoritms were applied to the `Stars vs. QSO vs. Galaxies` datase:
+        -   `LogisticRegression` (a multinomial class was choosen since there were 3 classes)
+        -   `RandomForestClassifier`
+
+- The dataset was further broken dowm to:
+        - `Stars vs. QSO`
+        - `Stars vs. Galaxies`
+        - `Galaxies vs. QSO`   
+
+
+
 
 ### Explanation of model choice, including limitations and benefits
 
