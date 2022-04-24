@@ -13,6 +13,9 @@ These next-generation telescopes are predicted to significantly increase the siz
 
 "While efforts such as Galaxy Zoo (Lintott et al. 2008, 2011) bring in many more people to help sift through data, these efforts alone are not expected to be able to keep up with the source counts anticipated for the next generation of telescopes." For such large datasets, machine learning algorithms are becoming an increasingly valuable tool for analysis and data exploration. "The development of such algorithms in computer science fields has accelerated rapidly in the last decade, focusing on processing large datasets in high performance computing workflows and cloud computing systems (Jones 2014; Wu et al. 2016)."
 
+### Google Slides 
+https://docs.google.com/presentation/d/1H1HE5rhpyJQa0CFW6nn1D7o1Ps6UMqfJQ-FiysKqm8g/edit?usp=sharing
+
 ### Description of the source of data:
 
 We chose the dataset from Kaggle.com, and we chose it for the number of data points, completeness and usability of the data.
