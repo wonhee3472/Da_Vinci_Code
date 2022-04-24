@@ -82,6 +82,9 @@ Abdurro’uf et al., The Seventeenth data release of the Sloan Digital Sky Surve
 
   - Which machine learning algorithm predicts the most accurate results?
 
+### Outline of Workflow:
+![](Resources/workflow.png)
+
 ### Description of data exploration and analysis phase
 
 The Pandas module was used to complete the EDA phase. The data was complete with no null values and the spec_obj_ID column was used as the index since it was the unique identifier.
@@ -95,7 +98,6 @@ Histograms and boxplots of our target variables against the other columns were g
 From our initial tableau visualization we deduced that quasars have a higher redshift, which correlates with scientific findings.
 
 [EDA](https://github.com/wonhee3472/Da_Vinci_Code/blob/main/EDA/EDA_04_11_22.ipynb)
-
 
 ### Description of preliminary data preprocessing:
 
