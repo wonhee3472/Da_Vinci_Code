@@ -96,7 +96,6 @@ From our initial tableau visualization we deduced that quasars have a higher red
 
 [EDA] (https://github.com/wonhee3472/Da_Vinci_Code/blob/dc224c4e0888f3863b310c12aa64bb629ec46890/EDA_04_11.ipynb)
 
-### Outline of the project 
 
 ### Description of preliminary data preprocessing:
 
@@ -108,7 +107,7 @@ From our initial tableau visualization we deduced that quasars have a higher red
 
   - There were 6 columns after the clean-up of data. Variable engineering was performed and the `u`,`g`,`r`,`i`,`z` columns were binned for each quartile.
 
-  - For the feature selection for the X variable, we dropped the `Class` column and for the Y variable we created our target which was the `Class` column.
+  - For the feature selection for the X variable, we dropped the `Class` column and for the Y variable, we created our target which was the `Class` column.
 
 ### Description of how data was split into training and testing sets 
 
@@ -118,19 +117,19 @@ From our initial tableau visualization we deduced that quasars have a higher red
 
   - The `y_train` was counted and the result was `('GALAXY': 44584, 'STAR': 16195, 'QSO': 14221)`. 
   
-  -  The high number of `GALAXY` training data creates a slight imbalance in the dataset. Oversampling and Undersampling methods were applied to the          dataset to create a more balanced dataset . 
+  -  The high number of `GALAXY` training data creates a slight imbalance in the dataset. Oversampling and Undersampling methods were applied to create a more balanced dataset. 
   
-  - The following Machine Learning algoritms were applied to the `Stars vs. QSO vs. Galaxies` dataset:
-        -   `LogisticRegression` (a multinomial class was choosen since there were 3 classes)
+  - The following Machine Learning algorithms were applied to the `Stars vs. QSO vs. Galaxies` dataset:
+        -   `LogisticRegression` (a multinomial class was chosen since there were 3 classes)
         -   `RandomForestClassifier`
 
-  - The dataset was further broken dowm to `Stars vs. QSO`,`Stars vs. Galaxies` and `Galaxies vs. QSO` and the following Machine Learning Algorithms         were applied the newly created datasets:  
-        -   `LogisticRegression` (a multinomial class was choosen since there were 3 classes)
+  - The dataset was further broken down to `Stars vs. QSO`,`Stars vs. Galaxies`, and `Galaxies vs. QSO` and the following Machine Learning Algorithms         were applied to the newly created datasets:  
+        -   `LogisticRegression` (a multinomial class was chosen since there were 3 classes)
         -   `RandomForestClassifier`    
         -   `Support Vector Machine`
 
 ### Explanation of model choice, including limitations and benefits
-The following classification models were choosed as the dataset is the dataset has multi class classification labels (Star or QSO or Galaxy).
+The following classification models were chosen as the dataset is the dataset has multi-class classification labels (Star or QSO or Galaxy).
 
  - LogisticRegression:
      Results: 
@@ -144,14 +143,14 @@ The following classification models were choosed as the dataset is the dataset h
        ![Confusion Matrix - Oversampling Stars vs QSO vs Galaxies](https://user-images.githubusercontent.com/93900628/164950596-0247294b-b42c-40fd-8ab1-6ee035d42695.png)
 
   Limitations: 
-  - Leads to overfitting when observations are less than number of features
+  - Leads to overfitting when observations are less than the number of features
   - Sensitive to outliers
-  - Assumes independant and dependant variables have a linear relationship 
-  - Training set must be seperate from other data points
+  - Assumes independent and dependant variables have a linear relationship 
+  - Training set must be separate from other data points
   
   Benefits: 
   - One of the simplest algorithms to test 
-  - Efficaint for linearly seperable data
+  - Efficient for linearly separable data
   - Can be used for binary classification, and extended to multi-classification
 
 - RandomForestClassifer:
@@ -170,7 +169,7 @@ The following classification models were choosed as the dataset is the dataset h
  
   Benefits: 
   - Reduces overfitting and improves accuracy
-  - It works well with datasets that has outliers
+  - It works well with datasets that have outliers
  
 
 ### Description of the communication protocols:
