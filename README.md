@@ -123,7 +123,9 @@ From our initial tableau visualization we deduced that quasars have a higher red
 
   - The dataset was further broken dowm to `Stars vs. QSO`,`Stars vs. Galaxies` and `Galaxies vs. QSO` and the following Machine Learning Algorithms         were applied the newly created datasets:  
         -   `LogisticRegression` (a multinomial class was choosen since there were 3 classes)
+        
         -   `RandomForestClassifier`
+        
         -   `Support Vector Machine`
 
 ### Explanation of model choice, including limitations and benefits
