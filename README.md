@@ -113,28 +113,31 @@ From our initial tableau visualization we deduced that quasars have a higher red
   
   - The data was split into training and testing sets and set our `random_state` to 1.
 
-  - The `y_train` and the result was `('GALAXY': 44584, 'STAR': 16195, 'QSO': 14221)`. 
+  - The `y_train` was counted and the result was `('GALAXY': 44584, 'STAR': 16195, 'QSO': 14221)`. 
   
   -  The high number of `GALAXY` training data creates a slight imbalance in the dataset. Oversampling and Undersampling methods were applied to the          dataset to create a more balanced dataset . 
   
-  - The following Machine Learning algoritms were applied to the `Stars vs. QSO vs. Galaxies` datase:
+  - The following Machine Learning algoritms were applied to the `Stars vs. QSO vs. Galaxies` dataset:
         -   `LogisticRegression` (a multinomial class was choosen since there were 3 classes)
         -   `RandomForestClassifier`
 
-- The dataset was further broken dowm to:
-        - `Stars vs. QSO`
-        - `Stars vs. Galaxies`
-        - `Galaxies vs. QSO`   
-
-
-
+  - The dataset was further broken dowm to `Stars vs. QSO`,`Stars vs. Galaxies` and `Galaxies vs. QSO` and the following Machine Learning Algorithms         were applied the newly created datasets:  
+        -   `LogisticRegression` (a multinomial class was choosen since there were 3 classes)
+        -   `RandomForestClassifier`
+        -   `Support Vector Machine`
 
 ### Explanation of model choice, including limitations and benefits
+The following classification models were choosed as the dataset is the dataset has multi class classification labels (Star or QSO or Galaxy).
 
-  - LogisticRegression: 
-     - We used a multinomial model and we achieved a 92% accuracy rate for oversampling and 94% accuracy for undersampling.
-Limitations: yeilds better results for binary outcomes
-Benefits: Known for classification 
+  - LogisticRegression:
+     - Results: Oversampling - Stars vs. QSO vs. Galaxies
+       ![Oversampling - Stars vs  QSO vs  Galaxies](https://user-images.githubusercontent.com/93900628/164950605-092a9741-a692-403d-815c-5b4549ee5da8.png)
+
+      ![Confusion Matrix - Oversampling Stars vs QSO vs Galaxies](https://user-images.githubusercontent.com/93900628/164950596-0247294b-b42c-40fd-8ab1-6ee035d42695.png)
+
+
+  Limitations: yeilds better results for binary outcomes
+  Benefits: Known for classification 
 
   - RandomForestClassifer:
      - We achieved a 97.2% accuracy rate for oversampling and a 97.3% accuracy for undersampling.
