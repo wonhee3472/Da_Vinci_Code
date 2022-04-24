@@ -95,7 +95,9 @@ Based on our research, we found that run_ID, rerun_ID, cam_col, field_ID, obj_ID
 
 Histograms and boxplots of our target variables against the other columns were graphed using the Seaborn module. The visualizations yielded that there were notiable differences between each stellar object and the different photometric filters observations. The visualization showed that the redshift,"i" and "r" characteristics had the most outliers.
 
-From our initial tableau visualization we deduced that quasars have a higher redshift, which correlates with scientific findings.
+ It was obserbed that quasars have a higher redshift, which correlates with scientific findings.
+ 
+ See EDA file for full observations and visualizations.
 
 [EDA](https://github.com/wonhee3472/Da_Vinci_Code/blob/main/EDA/EDA_04_24_22.ipynb)
 
