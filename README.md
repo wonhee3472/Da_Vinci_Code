@@ -131,7 +131,7 @@ From our initial tableau visualization we deduced that quasars have a higher red
 ### Explanation of model choice, including limitations and benefits
 The following classification models were chosen as the dataset is the dataset has multi-class classification labels (Star or QSO or Galaxy).
 
- - LogisticRegression:
+ - #### LogisticRegression:
      Results: 
      -  Accuracy : 96% - Oversampling
      -  Accuracy: 95.9% -  Undersampling
@@ -152,8 +152,8 @@ The following classification models were chosen as the dataset is the dataset ha
   - One of the simplest algorithms to test 
   - Efficient for linearly separable data
   - Can be used for binary classification, and extended to multi-classification
-
-- RandomForestClassifer:
+  
+ - #### RandomForestClassifer:
     Results:
      -  Accuracy : 97% - Oversampling
      -  Accuracy: 97% -  Undersampling
