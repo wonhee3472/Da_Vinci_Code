@@ -140,15 +140,18 @@ The following classification models were choosed as the dataset is the dataset h
 
 
   Limitations: 
-  - Leads to overfitting when observationss are less than number of features
+  - Leads to overfitting when observations are less than number of features
   - Sensitive to outliers
   - Assumes independant and dependant variables have a linear relationship 
   - Training set must be seperate from other data points
   
   Benefits: 
-  - Known for classification 
+  - Known for classification
+  - One of the simplest algorithms to test 
+  - Efficaint for linearly seperable data
+  - Can be used for binary classification, and extended to multi-classification
 
-  - RandomForestClassifer:
+  RandomForestClassifer:
      - We achieved a 97.2% accuracy rate for oversampling and a 97.3% accuracy for undersampling.
 Limitations:
 Benefits:
