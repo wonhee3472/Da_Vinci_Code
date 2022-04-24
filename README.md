@@ -158,23 +158,23 @@ The following classification models were chosen as the dataset is the dataset ha
   - Efficient for linearly separable data
   - Can be used for binary classification, and extended to multi-classification
   
- - #### RandomForestClassifer:
-    Results:
-     -  Accuracy : 97% - Oversampling
-     -  Accuracy: 97% -  Undersampling
+- #### RandomForestClassifer:
+   Results:
+   -  Accuracy : 97% - Oversampling
+   -  Accuracy: 97% -  Undersampling
       
-     - Oversampling - Stars vs. QSO vs. Galaxies
+   - Oversampling - Stars vs. QSO vs. Galaxies
      
-     ![RF - Oversampling Stars vs Galaxy vs QSO](https://user-images.githubusercontent.com/93900628/164951818-527fe5e8-a3ce-4e6b-b72c-c2de73a513b4.png)
+      ![RF - Oversampling Stars vs Galaxy vs QSO](https://user-images.githubusercontent.com/93900628/164951818-527fe5e8-a3ce-4e6b-b72c-c2de73a513b4.png)
      
-     ![RF - Oversampling CM ](https://user-images.githubusercontent.com/93900628/164951962-7135e5b2-ad3d-4c4a-be90-0a3378b6cd2f.png)
+      ![RF - Oversampling CM ](https://user-images.githubusercontent.com/93900628/164951962-7135e5b2-ad3d-4c4a-be90-0a3378b6cd2f.png)
 
-  Limitations: 
-  - Requires more computational power and resources
+ Limitations: 
+ - Requires more computational power and resources
  
-  Benefits: 
-  - Reduces overfitting and improves accuracy
-  - It works well with datasets that have outliers
+ Benefits: 
+ - Reduces overfitting and improves accuracy
+ - It works well with datasets that have outliers
  
 
 ### Description of the communication protocols:
