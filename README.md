@@ -13,7 +13,7 @@ These next-generation telescopes are predicted to significantly increase the siz
 
 "While efforts such as Galaxy Zoo (Lintott et al. 2008, 2011) bring in many more people to help sift through data, these efforts alone are not expected to be able to keep up with the source counts anticipated for the next generation of telescopes." For such large datasets, machine learning algorithms are becoming an increasingly valuable tool for analysis and data exploration. "The development of such algorithms in computer science fields has accelerated rapidly in the last decade, focusing on processing large datasets in high performance computing workflows and cloud computing systems (Jones 2014; Wu et al. 2016)."
 
-### Google Slides 
+### Google Slides: 
 https://docs.google.com/presentation/d/1H1HE5rhpyJQa0CFW6nn1D7o1Ps6UMqfJQ-FiysKqm8g/edit?usp=sharing
 
 ### Description of the source of data:
@@ -83,9 +83,10 @@ Abdurro’uf et al., The Seventeenth data release of the Sloan Digital Sky Surve
   - Which machine learning algorithm predicts the most accurate results?
 
 ### Outline of Workflow:
+
 ![](Resources/workflow.png)
 
-### Description of data exploration and analysis phase
+### Description of data exploration and analysis phase:
 
 The Pandas module was used to complete the EDA phase. The data was complete with no null values and the spec_obj_ID column was used as the index since it was the unique identifier.
 
@@ -107,13 +108,13 @@ Histograms and boxplots of our target variables against the other columns were g
 
   - The spec_obj_id is our index column since it is a unique identifier.
 
-### Description of preliminary feature engineering and preliminary feature selection, including their decision-making process 
+### Description of preliminary feature engineering and preliminary feature selection, including their decision-making process: 
 
   - There were 6 columns after the clean-up of data. Variable engineering was performed and the `u`,`g`,`r`,`i`,`z` columns were binned for each quartile.
 
   - For the feature selection for the X variable, we dropped the `Class` column and for the Y variable, we created our target which was the `Class` column.
 
-### Description of how data was split into training and testing sets 
+### Description of how data was split into training and testing sets: 
 
   - The model is trained using the `sklearn.model_selection` and imported the `train_test_split` function.
   
@@ -132,7 +133,7 @@ Histograms and boxplots of our target variables against the other columns were g
         -   `RandomForestClassifier`    
         -   `Support Vector Machine`
 
-### Explanation of model choice, including limitations and benefits
+### Explanation of model choice, including limitations and benefits:
 The following classification models were chosen as the dataset is the dataset has multi-class classification labels (Star or QSO or Galaxy).
 
  - #### LogisticRegression:
