@@ -123,9 +123,7 @@ From our initial tableau visualization we deduced that quasars have a higher red
 
   - The dataset was further broken dowm to `Stars vs. QSO`,`Stars vs. Galaxies` and `Galaxies vs. QSO` and the following Machine Learning Algorithms         were applied the newly created datasets:  
         -   `LogisticRegression` (a multinomial class was choosen since there were 3 classes)
-        
-        -   `RandomForestClassifier`
-        
+        -   `RandomForestClassifier`    
         -   `Support Vector Machine`
 
 ### Explanation of model choice, including limitations and benefits
@@ -133,7 +131,9 @@ The following classification models were choosed as the dataset is the dataset h
 
   - LogisticRegression:
      Results: 
-     - We achieved a 96% accuracy rate for oversampling and a 95.% accuracy for undersampling.
+     -  Accuracy : 96% - Oversampling
+     -  Accuracy: 95.9% -  Undersampling
+    
      - Oversampling - Stars vs. QSO vs. Galaxies
     
        ![Oversampling - Stars vs  QSO vs  Galaxies](https://user-images.githubusercontent.com/93900628/164950605-092a9741-a692-403d-815c-5b4549ee5da8.png)
@@ -151,13 +151,17 @@ The following classification models were choosed as the dataset is the dataset h
   - Efficaint for linearly seperable data
   - Can be used for binary classification, and extended to multi-classification
 
-  RandomForestClassifer:
-     - We achieved a 97.2% accuracy rate for oversampling and a 97.3% accuracy for undersampling.
+  - RandomForestClassifer:
+    Results:
+     -  Accuracy : 97% - Oversampling
+     -  Accuracy: 97% -  Undersampling
+      
      - Oversampling - Stars vs. QSO vs. Galaxies
-       ![Oversampling - Stars vs  QSO vs  Galaxies] ()
-       ![Confusion Matrix - Oversampling Stars vs QSO vs Galaxies]()
-
      
+     ![RF - Oversampling Stars vs Galaxy vs QSO](https://user-images.githubusercontent.com/93900628/164951818-527fe5e8-a3ce-4e6b-b72c-c2de73a513b4.png)
+     
+     ![RF - Oversampling CM ](https://user-images.githubusercontent.com/93900628/164951962-7135e5b2-ad3d-4c4a-be90-0a3378b6cd2f.png)
+
   Limitations: 
   - 
   
