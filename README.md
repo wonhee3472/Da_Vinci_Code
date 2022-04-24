@@ -94,7 +94,7 @@ Histograms and boxplots of our target variables against the other columns were g
 
 From our initial tableau visualization we deduced that quasars have a higher redshift, which correlates with scientific findings.
 
-[EDA] (https://github.com/wonhee3472/Da_Vinci_Code/blob/dc224c4e0888f3863b310c12aa64bb629ec46890/EDA_04_11.ipynb)
+[EDA](https://github.com/wonhee3472/Da_Vinci_Code/blob/main/EDA/EDA_04_11_22.ipynb)
 
 
 ### Description of preliminary data preprocessing:
