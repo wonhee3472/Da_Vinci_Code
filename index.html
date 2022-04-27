@@ -180,7 +180,7 @@ Welcome Slider
 	</div>   	<!-- End container -->
 </section>   <!-- End section -->
 
-<section class="bg-one about section">
+<section id="portfolio" class="bg-one about section">
 	<div class="container">
 		<div class="row">
 		
@@ -194,9 +194,7 @@ Welcome Slider
 			<!-- About item -->
 			<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" >
 				<div class="block">							
-					<div class="icon-box">
-						<i class="tf-tools"></i>
-					</div>					
+					<div id="stars"></div>
 					<!-- Express About Yourself -->
 					<div class="content text-center">
 						<h3 class="ddd">Stars</h3>								
@@ -209,9 +207,7 @@ Welcome Slider
 			<!-- About item -->
 			<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="250ms">
 				<div class="block">
-					<div class="icon-box">
-						<i class="tf-strategy"></i>
-					</div>
+					<div id="galaxies"></div>
 					<!-- Express About Yourself -->
 					<div class="content text-center">
 						<h3>Galaxies</h3>
@@ -224,9 +220,7 @@ Welcome Slider
 			<!-- About item -->					
 			<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
 				<div class="block kill-margin-bottom">
-					<div class="icon-box">
-						<i class="tf-anchor2"></i>
-					</div>
+						<div id="quasars"></div>
 					<!-- Express About Yourself -->
 					<div class="content text-center">
 						<h3>Quasars</h3>
@@ -235,8 +229,24 @@ Welcome Slider
 				</div>
 			</div> 
 			<!-- End About item -->
-			
 		</div> 		<!-- End row -->
+		<div class="btn-img" 
+			 style="margin-top: 20px;
+					display: flex;
+					justify-content: center;
+					align-items: center;">
+			<button  
+			style="height: 50px;
+					width: 180px;
+					background-color: lightgray;
+					color: black;
+					border: 2px solid;
+					border-radius: 4px;
+					cursor: pointer;
+					text-align: center;"
+					
+			onclick="showObjects()">Click to see other objects</button>
+		</div>
 	</div>   	<!-- End container -->
 </section>   <!-- End section -->
 

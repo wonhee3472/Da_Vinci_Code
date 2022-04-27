@@ -2091,3 +2091,11 @@ blockquote {
 }
 
 /*# sourceMappingURL=maps/style.css.map */
+
+.block div {
+    height: 20vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
