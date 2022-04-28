@@ -1,281 +1,464 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
 <html class="no-js">
-<!--<![endif]-->
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta
+      name="description"
+      content="Meghna One page parallax responsive HTML Template "
+    />
+    <meta name="author" content="Data Vis team" />
 
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta name="description" content="Meghna One page parallax responsive HTML Template ">
+    <title>Stellar Classification</title>
 
-	<meta name="author" content="Data Vis team">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<title>Stellar Classification</title>
+    <link
+      rel="stylesheet"
+      href="dashboard/plugins/themefisher-font/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="dashboard/plugins/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="dashboard/plugins/animate-css/animate.css" />
+    <link
+      rel="stylesheet"
+      href="dashboard/plugins/magnific-popup/dist/magnific-popup.css"
+    />
+    <link
+      rel="stylesheet"
+      href="dashboard/plugins/slick-carousel/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="dashboard/plugins/slick-carousel/slick/slick-theme.css"
+    />
+    <link rel="stylesheet" href="dashboard/css/style.css" />
+  </head>
 
-	<!-- Mobile Specific Meta
-		================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <body id="body" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div class="preloader">
+      <div class="sk-cube-grid">
+        <div class="sk-cube sk-cube1"></div>
+        <div class="sk-cube sk-cube2"></div>
+        <div class="sk-cube sk-cube3"></div>
+        <div class="sk-cube sk-cube4"></div>
+        <div class="sk-cube sk-cube5"></div>
+        <div class="sk-cube sk-cube6"></div>
+        <div class="sk-cube sk-cube7"></div>
+        <div class="sk-cube sk-cube8"></div>
+        <div class="sk-cube sk-cube9"></div>
+      </div>
+    </div>
 
-	<!-- Favicon -->
-	<!-- <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" /> -->
+    <section
+      class="hero-area overlay"
+      style="
+        background-image: url('https://c.tenor.com/pwks_QPpbvoAAAAd/sky-night.gif');
+      "
+    >
+      <div id="intro" class="block">
+        <h1>
+          Stellar<br />
+          Classification
+        </h1>
+        <p>
+          Apply various machine learning algorithms to classify Stars, Galaxies,
+          and Quasars based on spectral characteristics
+        </p>
+      </div>
+    </section>
 
-	<!-- CSS
-		================================================== -->
-	<!-- Fontawesome Icon font -->
-	<link rel="stylesheet" href="dashboard/plugins/themefisher-font/style.css">
-	<!-- bootstrap.min css -->
-	<link rel="stylesheet" href="dashboard/plugins/bootstrap/dist/css/bootstrap.min.css">
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="dashboard/plugins/animate-css/animate.css">
-	<!-- Magnific popup css -->
-	<link rel="stylesheet" href="dashboard/plugins/magnific-popup/dist/magnific-popup.css">
-	<!-- Slick Carousel -->
-	<link rel="stylesheet" href="dashboard/plugins/slick-carousel/slick/slick.css">
-	<link rel="stylesheet" href="dashboard/plugins/slick-carousel/slick/slick-theme.css">
-	<!-- Main Stylesheet -->
-	<link rel="stylesheet" href="dashboard/css/style.css">
-
-
-</head>
-
-<body id="body" data-spy="scroll" data-target=".navbar" data-offset="50">
-	<!--
-	    Start Preloader
-	    ==================================== -->
-	<div class="preloader">
-		<div class="sk-cube-grid">
-			<div class="sk-cube sk-cube1"></div>
-			<div class="sk-cube sk-cube2"></div>
-			<div class="sk-cube sk-cube3"></div>
-			<div class="sk-cube sk-cube4"></div>
-			<div class="sk-cube sk-cube5"></div>
-			<div class="sk-cube sk-cube6"></div>
-			<div class="sk-cube sk-cube7"></div>
-			<div class="sk-cube sk-cube8"></div>
-			<div class="sk-cube sk-cube9"></div>
-		</div>
-	</div>
-	<!-- End Preloader
-        ==================================== -->
-
- <!--
-Welcome Slider
-==================================== -->
-
-<section class="hero-area overlay" style="background-image: url('dashboard/images/banner/hero-area.jpg');">
-	<!-- <video autoplay muted loop class="hero-video">
-		<source src="images/banner/hero-video.mp4" type="video/mp4">
-	</video> -->
-	<!-- <div class="block">
-		<div class="video-button">
-			<a class="popup-video" href="https://www.youtube.com/watch?v=jrkvirglgaQ">
-				<i class="tf-ion-play"></i>
-		</a>
-		</div> -->
-	<div id="intro" class = block>
-		<h1>Stellar<br />
-			Classification</h1>
-		<p>Apply various machine learning algorithms to classify Stars, Galaxies,
-			and Quasars based on spectral characteristics</p>
-		<!-- <a data-scroll href="#services" class="btn btn-transparent">Explore Us</a> -->
-	</div>
-</section>
-
- <!-- 
-  Fixed Navigation
-  ==================================== -->
     <header id="navigation" class="navbar navigation">
-        <div class="container">
-            <div class="navbar-header">
-              <!-- responsive nav button -->
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <!-- /responsive nav button -->
-    
-                <!-- logo -->
-                <a class="navbar-brand logo" href="#body">
-                    <!-- <img src="images/logo.png" alt="Website Logo" /> -->
-                    <svg width="40px" height="40px" viewBox="0 0 45 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                            <g id="Group" transform="translate(2.000000, 2.000000)" stroke="#57CBCC" stroke-width="3">
-                                <ellipse id="Oval" cx="20.5" cy="20" rx="20.5" ry="20"></ellipse>
-                                <path d="M6,7 L33.5,34.5" id="Line-2" stroke-linecap="square"></path>
-                                <path d="M21,20 L34,7" id="Line-3" stroke-linecap="square"></path>
-                            </g>
-                        </g>
-                    </svg>
-                </a>
-            <!-- /logo -->
+      <div class="container">
+        <div class="navbar-header">
+          <!-- responsive nav button -->
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target=".navbar-collapse"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a class="navbar-brand logo" href="#body">
+            <!-- <img src="images/logo.png" alt="Website Logo" /> -->
+            <svg
+              width="40px"
+              height="40px"
+              viewBox="0 0 45 44"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="Group"
+                  transform="translate(2.000000, 2.000000)"
+                  stroke="#57CBCC"
+                  stroke-width="3"
+                >
+                  <ellipse
+                    id="Oval"
+                    cx="20.5"
+                    cy="20"
+                    rx="20.5"
+                    ry="20"
+                  ></ellipse>
+                  <path
+                    d="M6,7 L33.5,34.5"
+                    id="Line-2"
+                    stroke-linecap="square"
+                  ></path>
+                  <path
+                    d="M21,20 L34,7"
+                    id="Line-3"
+                    stroke-linecap="square"
+                  ></path>
+                </g>
+              </g>
+            </svg>
+          </a>
         </div>
 
-        <!-- main nav -->
         <nav class="collapse navbar-collapse navbar-right" role="Navigation">
-            <ul id="nav" class="nav navbar-nav navigation-menu">
-                <li><a data-scroll href="#body">Home</a></li>
-                <li><a data-scroll href="#about">Overview</a></li>
-                <li><a data-scroll href="#services">Tableau</a></li>
-                <li><a data-scroll href="#portfolio">Interactive Section</a></li>
-                <li><a data-scroll href="#our-team">Team</a></li>
-                <!-- <li><a data-scroll href="#pricing">Pricing</a></li>
-                <li><a data-scroll href="#blog">Blog</a></li>
-                <li><a data-scroll href="#contact-us">Contact</a></li> -->
-            </ul>
+          <ul id="nav" class="nav navbar-nav navigation-menu">
+            <li><a data-scroll href="#body">Home</a></li>
+            <li><a data-scroll href="#about">Overview</a></li>
+            <li><a data-scroll href="#services">Tableau</a></li>
+            <li><a data-scroll href="#portfolio">Interactive Section</a></li>
+            <li><a data-scroll href="#our-team">Team</a></li>
+          </ul>
         </nav>
-        <!-- /main nav -->
-  
       </div>
-  </header>
-  <!--
-  End Fixed Navigation
-  ==================================== -->
+    </header>
 
-<!--
-		Start About Section
-		==================================== -->
-<section class="section about-2 padding-0 bg-dark" id="about">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-6 padding-0 ">
-				<img class="img-responsive" src="dashboard/images/about/about-business-man.jpg" alt="">
-			</div>
-			<div class="col-md-6">
-				<div class="content-block">
-					<h2>Project Overview</h2>
-					<!-- <h2>We’re A Digital Design Agency.</h2> -->
-					<p> In astronomy the early classification, distribution, and
-						cataloging of stars have helped us understand how they make up our
-						galaxy. This classification scheme has accelerated discoveries in
-						astronomy and astrophysics through the support of an all-sky
-						spectroscopic observation program that uses telescopes in both
-						hemispheres to comprehensively map the night sky, examine the
-						history and structure of the universe, and probe the physics of
-						black holes. These next-generation telescopes are predicted to
-						significantly increase the size of source catalogs and data and it
-						will become unfeasible for astronomers to manually verify and
-						label individual sources.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+    <section class="section about-2 padding-0 bg-dark" id="about">
+      <div class="container-fluid">
+        <div class="row">
+          <div
+            class="col-md-6 padding-0"
+            style="display: flex; justify-content: center"
+          >
+            <img
+              class="img-responsive"
+              src="https://i.pinimg.com/originals/cd/5b/04/cd5b04b8160d82a4a7339a7541a65bfe.gif"
+              style="width: 900px"
+            />
+          </div>
+          <div class="col-md-6">
+            <div class="content-block">
+              <h2>
+                Ever wished upon a star?<br /><br />
+                Are you sure it was a star?<br /><br />
+                Let's see if you actually did!
+              </h2>
+              <div>
+                <a id="quiz" href="dashboard/quiz.html">Take a Quiz!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<section id="services" class="bg-one section">
-	<div class="container">
-		<div class="row">
-			<!-- section title -->
-			<div class="title text-center wow fadeIn" data-wow-duration="500ms">
-				<h2>Tableau <span class="color">Dashboard</span></h2>
-					<iframe src="https://public.tableau.com/views/GalaxyStarsandQSOViz/Story1?:language=en-US&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true"
-					width="100%" height="955" frameborder="0"></iframe>
-				<div class="border"></div>
-			</div>
-		</div> 		<!-- End row -->
-	</div>   	<!-- End container -->
-</section>   <!-- End section -->
+    <section
+      id="counter"
+      class="parallax-section bg-1 section overly"
+      style="margin-top: 100px"
+    >
+      <div class="container" style="height: 30vh; text-align: center">
+        <h2 style="color: rgb(67, 67, 67); font-size: 40px">
+          How many did you guess correctly?
+        </h2>
+        <img
+          src="https://64.media.tumblr.com/tumblr_mej0woW95Q1qk6wc3o2_500.gifv"
+          alt=""
+        />
+      </div>
+      <!-- end container -->
+    </section>
 
-<section id="portfolio" class="bg-one about section">
-	<div class="container">
-		<div class="row">
-		
-			<!-- section title -->
-			<div class="title text-center wow fadeIn" data-wow-duration="1500ms" >
-				<h2>Project <span class="color">Overview</span> </h2>
-				<div class="border"></div>
-			</div>
-			<!-- /section title -->
-			
-			<!-- About item -->
-			<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" >
-				<div class="block">							
-					<div id="stars"></div>
-					<!-- Express About Yourself -->
-					<div class="content text-center">
-						<h3 class="ddd">Stars</h3>								
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos</p>
-					</div>
-				</div>
-			</div> 
-			<!-- End About item -->
-			
-			<!-- About item -->
-			<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="250ms">
-				<div class="block">
-					<div id="galaxies"></div>
-					<!-- Express About Yourself -->
-					<div class="content text-center">
-						<h3>Galaxies</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos</p>
-					</div>
-				</div>
-			</div> 
-			<!-- End About item -->
-			
-			<!-- About item -->					
-			<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
-				<div class="block kill-margin-bottom">
-						<div id="quasars"></div>
-					<!-- Express About Yourself -->
-					<div class="content text-center">
-						<h3>Quasars</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos</p>
-					</div>
-				</div>
-			</div> 
-			<!-- End About item -->
-		</div> 		<!-- End row -->
-		<div class="btn-img" 
-			 style="margin-top: 20px;
-					display: flex;
-					justify-content: center;
-					align-items: center;">
-			<button  
-			style="height: 50px;
-					width: 180px;
-					background-color: lightgray;
-					color: black;
-					border: 2px solid;
-					border-radius: 4px;
-					cursor: pointer;
-					text-align: center;"
-					
-			onclick="showObjects()">Click to see other objects</button>
-		</div>
-	</div>   	<!-- End container -->
-</section>   <!-- End section -->
+    <section id="blog" class="section">
+      <div class="container">
+        <div class="row">
+          <!-- section title -->
+          <div class="title text-center wow fadeInDown">
+            <h2>Important <span class="color">Features</span></h2>
+            <div class="border"></div>
+          </div>
+          <!-- /section title -->
+          <div class="clearfix">
+            <!-- single blog post -->
+            <article class="clearfix wow fadeInUp" data-wow-duration="500ms">
+              <div class="post-block">
+                <div class="content">
+                  <h3>
+                    <a
+                      href="https://lsst-epo.github.io/formal-ed-investigations/coloring-the-universe/"
+                      >Astronomical Filters</a
+                    >
+                  </h3>
+                  <p>
+                    The u filter transmits ultraviolet light and the z filter
+                    transmits only infrared light. ultraviolet and infrared
+                    light are beyond the range of human vision. However,
+                    astronomers can still make images with these filters by
+                    colorizing the filtered images with colors we can see. The
+                    g, r, and i filters transmit visible light our eyes can see.
+                  </p>
+                </div>
+                <div class="media-wrapper">
+                  <img
+                    src="https://lsst-epo.github.io/formal-ed-investigations/coloring-the-universe/assets/images/filters-ugrizy.png"
+                    alt="amazing caves coverimage"
+                    class="img-responsive"
+                    style="background-color: aliceblue"
+                  />
+                </div>
+              </div>
+            </article>
+            <!-- /single blog post -->
 
-		<!-- 
+            <!-- single blog post -->
+            <article
+              class="wow fadeInUp"
+              data-wow-duration="500ms"
+              data-wow-delay="200ms"
+            >
+              <div class="post-block">
+                <div class="content">
+                  <h3>
+                    <a href="https://slideplayer.com/slide/8500738/"
+                      >Redshift</a
+                    >
+                  </h3>
+                  <p>If you put your mouse over the slideshow, it'll pause.</p>
+                </div>
+                <div
+                  id="gallery-post"
+                  class="media-wrapper"
+                  style="text-align: center"
+                >
+                  <div class="item">
+                    <img
+                      src="https://slideplayer.com/slide/8500738/26/images/16/What+We+See+The+pattern+is+red+shifted.+%E2%80%94+So+%E2%80%94.jpg"
+                      alt="blog post"
+                      class="img-responsive"
+                      style="text-align: center"
+                    />
+                  </div>
+                  <div class="item">
+                    <img
+                      src="https://slideplayer.com/slide/8500738/26/images/17/What+We+See+The+pattern+is+red+shifted.+%E2%80%94+So+%E2%80%94.jpg"
+                      alt="blog post"
+                      class="img-responsive"
+                    />
+                  </div>
+                  <div class="item">
+                    <img
+                      src="https://slideplayer.com/slide/8500738/26/images/18/The+bigger+the+shift%2C+the+faster+the+light+source+is+moving..jpg"
+                      alt="blog post | Meghna"
+                      class="img-responsive"
+                    />
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!-- end single blog post -->
+          </div>
+          <div class="all-post text-center">
+            <a
+              class="btn btn-main"
+              href="https://github.com/wonhee3472/Da_Vinci_Code/blob/e6a121878bda8237b8eee1cca20a7a72319d9159/Resources/sample_data.csv"
+              >View All Features in Dataset</a
+            >
+          </div>
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </section>
+    <!-- end section -->
+
+    <section id="services" class="bg-one section">
+      <div class="container">
+        <div class="row">
+          <div class="title text-center wow fadeIn" data-wow-duration="500ms">
+            <h2>Tableau <span class="color">Dashboard</span></h2>
+            <iframe
+              src="https://public.tableau.com/views/GalaxyStarsandQSOViz/Story1?:language=en-US&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true"
+              width="100%"
+              height="955"
+              frameborder="0"
+            ></iframe>
+            <div class="border"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="bg-one about section">
+      <div class="container">
+        <div class="row">
+          <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
+            <h2><span class="color">Stellar</span> Objects</h2>
+            <div class="border"></div>
+          </div>
+
+          <div
+            class="col-md-4 text-center wow fadeInUp"
+            data-wow-duration="500ms"
+          >
+            <div class="block">
+              <div id="stars"></div>
+              <div class="content text-center">
+                <h3 class="ddd">Stars</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Velit, nihil, libero, perspiciatis eos provident laborum eum
+                  dignissimos
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-4 text-center wow fadeInUp"
+            data-wow-duration="500ms"
+            data-wow-delay="250ms"
+          >
+            <div class="block">
+              <div id="galaxies"></div>
+              <!-- Express About Yourself -->
+              <div class="content text-center">
+                <h3>Galaxies</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Velit, nihil, libero, perspiciatis eos provident laborum eum
+                  dignissimos
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- End About item -->
+
+          <!-- About item -->
+          <div
+            class="col-md-4 text-center wow fadeInUp"
+            data-wow-duration="500ms"
+            data-wow-delay="500ms"
+          >
+            <div class="block kill-margin-bottom">
+              <div id="quasars"></div>
+              <!-- Express About Yourself -->
+              <div class="content text-center">
+                <h3>Quasars</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Velit, nihil, libero, perspiciatis eos provident laborum eum
+                  dignissimos
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- End About item -->
+        </div>
+        <!-- End row -->
+        <div
+          class="btn-img"
+          style="
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          "
+        >
+          <button
+            style="
+              height: 50px;
+              width: 180px;
+              background-color: lightgray;
+              color: black;
+              border: 2px solid;
+              border-radius: 4px;
+              cursor: pointer;
+              text-align: center;
+            "
+            onclick="showObjects()"
+          >
+            Click to see other objects
+          </button>
+        </div>
+      </div>
+      <!-- End container -->
+    </section>
+    <!-- End section -->
+
+    <!-- 
 		Essential Scripts
 		=====================================-->
-		
-		<!-- Main jQuery -->
-		<script type="text/javascript" src="dashboard/plugins/jquery/dist/jquery.min.js"></script>
-		<!-- Bootstrap 3.1 -->
-		<script type="text/javascript" src="dashboard/plugins/bootstrap/dist/js/bootstrap.min.js"></script>
-		<!-- Slick Carousel -->
-		<script type="text/javascript" src="dashboard/plugins/slick-carousel/slick/slick.min.js"></script>
-		<!-- Portfolio Filtering -->
-		<script type="text/javascript" src="dashboard/plugins/filterzr/jquery.filterizr.min.js"></script>
-		<!-- Smooth Scroll -->
-		<script type="text/javascript" src="dashboard/plugins/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
-		<!-- Magnific popup -->
-		<script type="text/javascript" src="dashboard/plugins/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
-		<!-- Google Map API -->
-		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
-		<!-- Sticky Nav -->
-		<script type="text/javascript" src="dashboard/plugins/Sticky/jquery.sticky.js"></script>
-		<!-- Number Counter Script -->
-		<script type="text/javascript" src="dashboard/plugins/count-to/jquery.countTo.js"></script>
-		<!-- wow.min Script -->
-		<script type="text/javascript" src="dashboard/plugins/wow/dist/wow.min.js"></script>
-		<!-- Custom js -->
-		<script type="text/javascript" src="dashboard/js/script.js"></script>
-		
-    </body>
+
+    <!-- Main jQuery -->
+    <script
+      type="text/javascript"
+      src="dashboard/plugins/jquery/dist/jquery.min.js"
+    ></script>
+    <!-- Bootstrap 3.1 -->
+    <script
+      type="text/javascript"
+      src="dashboard/plugins/bootstrap/dist/js/bootstrap.min.js"
+    ></script>
+    <!-- Slick Carousel -->
+    <script
+      type="text/javascript"
+      src="dashboard/plugins/slick-carousel/slick/slick.min.js"
+    ></script>
+    <!-- Portfolio Filtering -->
+    <script
+      type="text/javascript"
+      src="dashboard/plugins/filterzr/jquery.filterizr.min.js"
+    ></script>
+    <!-- Smooth Scroll -->
+    <script
+      type="text/javascript"
+      src="dashboard/plugins/smooth-scroll/dist/js/smooth-scroll.min.js"
+    ></script>
+    <!-- Magnific popup -->
+    <script
+      type="text/javascript"
+      src="dashboard/plugins/magnific-popup/dist/jquery.magnific-popup.min.js"
+    ></script>
+    <!-- Google Map API -->
+    <script
+      type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
+    ></script>
+    <!-- Sticky Nav -->
+    <script
+      type="text/javascript"
+      src="dashboard/plugins/Sticky/jquery.sticky.js"
+    ></script>
+    <!-- Number Counter Script -->
+    <script
+      type="text/javascript"
+      src="dashboard/plugins/count-to/jquery.countTo.js"
+    ></script>
+    <!-- wow.min Script -->
+    <script
+      type="text/javascript"
+      src="dashboard/plugins/wow/dist/wow.min.js"
+    ></script>
+    <!-- Custom js -->
+    <script type="text/javascript" src="dashboard/js/script.js"></script>
+  </body>
 </html>

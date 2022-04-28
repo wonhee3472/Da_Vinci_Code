@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
+    <title>Stars Quiz</title>
+  </head>
+  <body>
+    <h1>Star Quiz</h1>
+    <form id="quiz" name="quiz">
+      <p>
+        <br />
+        <img src="images/Star/Star_1.jfif" class="star_image" /><br /><br />
+        1. Is this a star?<br />
+        <input type="radio" id="mc" name="question1" value="star" />Yes <br />
+        <input type="radio" id="mc" name="question1" value="nostar" />No <br />
+      </p>
+      <p>
+        <br />
+        <img src="images/Star/Star_2.jfif" class="star_image" /><br /><br />
+        2. Is this a star?<br />
+        <input type="radio" id="mc" name="question2" value="star" />Yes<br />
+        <input type="radio" id="mc" name="question2" value="nostar" />No<br />
+      </p>
+      <p>
+        <br />
+        <img src="images/Star/Star_3.jfif" class="star_image" /><br /><br />
+        3. Is this a star?<br />
+        <input type="radio" id="mc" name="question3" value="star" />Yes<br />
+        <input type="radio" id="mc" name="question3" value="nostar" />No<br />
+      </p>
+      <p>
+        <br />
+        <img src="images/Star/Star_4.jfif" class="star_image" /><br /><br />
+        4. Is this a star?<br />
+        <input type="radio" id="mc" name="question4" value="star" />Yes<br />
+        <input type="radio" id="mc" name="question4" value="nostar" />No<br />
+      </p>
+      <p>
+        <br />
+        <img src="images/Star/Star_5.jfif" class="star_image" /><br /><br />
+        5. Is this a star?<br />
+        <input type="radio" id="mc" name="question5" value="star" />Yes<br />
+        <input type="radio" id="mc" name="question5" value="nostar" />No<br />
+      </p>
+      <input id="button" type="button" value="Submit" onclick="check();" />
+    </form>
+    <div id="after_submit">
+      <p id="number_correct"></p>
+    </div>
+    <button onclick="myFunction()">Retake</button>
+    <script src="js/quiz.js"></script>
+  </body>
+</html>

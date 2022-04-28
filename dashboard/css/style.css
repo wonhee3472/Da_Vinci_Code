@@ -2099,3 +2099,29 @@ blockquote {
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+.content-block div {
+  margin-top: 50px;
+  display: flex;
+}
+
+#quiz {
+  width: 150px;
+  background-color: #f44336;
+  color:white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#quiz:hover {
+  background-color: red;
+}
+
+/* #after_submit {
+  visibility: hidden;
+}
+
+.star_image{
+  margin-left:50pt;
+} */
