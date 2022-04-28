@@ -34,6 +34,7 @@
       href="dashboard/plugins/slick-carousel/slick/slick-theme.css"
     />
     <link rel="stylesheet" href="dashboard/css/style.css" />
+
   </head>
 
   <body id="body" data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -52,11 +53,10 @@
     </div>
 
     <section
-      class="hero-area overlay"
-      style="
-        background-image: url('https://c.tenor.com/pwks_QPpbvoAAAAd/sky-night.gif');
-      "
-    >
+      class="hero-area overlay"style="background-image: url('images/banner/hero-area.jpg');">
+      <video autoplay muted loop class="hero-video">
+        <source src="/dashboard/images/banner/hero-video.mp4" type="video/mp4">
+      </video>
       <div id="intro" class="block">
         <h1>
           Stellar<br />
@@ -135,9 +135,10 @@
           <ul id="nav" class="nav navbar-nav navigation-menu">
             <li><a data-scroll href="#body">Home</a></li>
             <li><a data-scroll href="#about">Overview</a></li>
-            <li><a data-scroll href="#services">Tableau</a></li>
-            <li><a data-scroll href="#portfolio">Interactive Section</a></li>
-            <li><a data-scroll href="#our-team">Team</a></li>
+            <li><a data-scroll href="#features">Important Features</a></li>
+            <li><a data-scroll href="#tableau">Tableau</a></li>
+            <li><a data-scroll href="#portfolio">Stellar Objects</a></li>
+            <!-- <li><a data-scroll href="#our-team">Team</a></li> -->
           </ul>
         </nav>
       </div>
@@ -152,7 +153,7 @@
           >
             <img
               class="img-responsive"
-              src="https://i.pinimg.com/originals/cd/5b/04/cd5b04b8160d82a4a7339a7541a65bfe.gif"
+              src="./dashboard/images/about/about-business-man.jpg"
               style="width: 900px"
             />
           </div>
@@ -172,24 +173,18 @@
       </div>
     </section>
 
-    <section
+      <!-- start container -->
+    <!-- <section
       id="counter"
       class="parallax-section bg-1 section overly"
       style="margin-top: 100px"
     >
       <div class="container" style="height: 30vh; text-align: center">
-        <h2 style="color: rgb(67, 67, 67); font-size: 40px">
-          How many did you guess correctly?
-        </h2>
-        <img
-          src="https://64.media.tumblr.com/tumblr_mej0woW95Q1qk6wc3o2_500.gifv"
-          alt=""
-        />
       </div>
-      <!-- end container -->
-    </section>
-
-    <section id="blog" class="section">
+    </section> -->
+          <!-- end container -->
+      <!-- Start features container -->
+    <section id="features" class="section">
       <div class="container">
         <div class="row">
           <!-- section title -->
@@ -218,6 +213,7 @@
                     g, r, and i filters transmit visible light our eyes can see.
                   </p>
                 </div>
+<!-- Button -->
                 <div class="media-wrapper">
                   <img
                     src="https://lsst-epo.github.io/formal-ed-investigations/coloring-the-universe/assets/images/filters-ugrizy.png"
@@ -226,56 +222,76 @@
                     style="background-color: aliceblue"
                   />
                 </div>
-              </div>
-            </article>
-            <!-- /single blog post -->
+<!-- Carousel -->
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                  </ol>
+                
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="./dashboard/images/carousel/U_count.png" alt="U_graph">
+                      <div class="carousel-caption">
+                        <h3>U graph </h3>
+                        <p>LA is always so much fun!</p>
+                      </div>
+                    </div>
+                
+                    <div class="item">
+                      <img src="./dashboard/images/carousel/g_count.png" alt="G_graph">
+                      <div class="carousel-caption">
+                        <h3>G graph</h3>
+                        <p>Thank you, Chicago!</p>
+                      </div>
+                    </div>
+                
+                    <div class="item">
+                      <img src="./dashboard/images/carousel/r_count.png" alt="R_graph">
+                      <div class="carousel-caption">
+                        <h3>R graph</h3>
+                        <p>We love the Big Apple!</p>
+                      </div>
+                    </div>  
+    
+                      <div class="item">
+                        <img src="./dashboard/images/carousel/i_count.png" alt="I_graph">
+                        <div class="carousel-caption">
+                          <h3>I graph</h3>
+                          <p>We love the Big Apple!</p>
+                        </div>
+                      </div>  
+    
+                        <div class="item">
+                          <img src="./dashboard/images/carousel/z_count.png" alt="Z_graph">
+                          <div class="carousel-caption">
+                            <h3>Z graph</h3>
+                            <p>We love the Big Apple!</p>
+                          </div>
+                        </div>  
+    
+                    </div>
+                  </div>
+                
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
 
-            <!-- single blog post -->
-            <article
-              class="wow fadeInUp"
-              data-wow-duration="500ms"
-              data-wow-delay="200ms"
-            >
-              <div class="post-block">
-                <div class="content">
-                  <h3>
-                    <a href="https://slideplayer.com/slide/8500738/"
-                      >Redshift</a
-                    >
-                  </h3>
-                  <p>If you put your mouse over the slideshow, it'll pause.</p>
-                </div>
-                <div
-                  id="gallery-post"
-                  class="media-wrapper"
-                  style="text-align: center"
-                >
-                  <div class="item">
-                    <img
-                      src="https://slideplayer.com/slide/8500738/26/images/16/What+We+See+The+pattern+is+red+shifted.+%E2%80%94+So+%E2%80%94.jpg"
-                      alt="blog post"
-                      class="img-responsive"
-                      style="text-align: center"
-                    />
-                  </div>
-                  <div class="item">
-                    <img
-                      src="https://slideplayer.com/slide/8500738/26/images/17/What+We+See+The+pattern+is+red+shifted.+%E2%80%94+So+%E2%80%94.jpg"
-                      alt="blog post"
-                      class="img-responsive"
-                    />
-                  </div>
-                  <div class="item">
-                    <img
-                      src="https://slideplayer.com/slide/8500738/26/images/18/The+bigger+the+shift%2C+the+faster+the+light+source+is+moving..jpg"
-                      alt="blog post | Meghna"
-                      class="img-responsive"
-                    />
-                  </div>
-                </div>
               </div>
             </article>
-            <!-- end single blog post -->
+
           </div>
           <div class="all-post text-center">
             <a
@@ -291,7 +307,7 @@
     </section>
     <!-- end section -->
 
-    <section id="services" class="bg-one section">
+    <section id="tableau" class="bg-one section">
       <div class="container">
         <div class="row">
           <div class="title text-center wow fadeIn" data-wow-duration="500ms">
@@ -307,7 +323,7 @@
         </div>
       </div>
     </section>
-
+<!-- New -->
     <section id="portfolio" class="bg-one about section">
       <div class="container">
         <div class="row">
@@ -387,7 +403,7 @@
             style="
               height: 50px;
               width: 180px;
-              background-color: lightgray;
+              background-color:aliceblue;
               color: black;
               border: 2px solid;
               border-radius: 4px;
@@ -396,7 +412,7 @@
             "
             onclick="showObjects()"
           >
-            Click to see other objects
+            Click to see examples
           </button>
         </div>
       </div>
@@ -460,5 +476,10 @@
     ></script>
     <!-- Custom js -->
     <script type="text/javascript" src="dashboard/js/script.js"></script>
+
+    <!-- Bootstap 4 -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
