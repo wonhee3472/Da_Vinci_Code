@@ -85,9 +85,9 @@
             <span class="icon-bar"></span>
           </button>
 
-          <a class="navbar-brand logo" href="#body">
+          <!-- <a class="navbar-brand logo" href="#body"> -->
             <!-- <img src="images/logo.png" alt="Website Logo" /> -->
-            <svg
+            <!-- <svg
               width="40px"
               height="40px"
               viewBox="0 0 45 44"
@@ -128,7 +128,7 @@
                 </g>
               </g>
             </svg>
-          </a>
+          </a> -->
         </div>
 
         <nav class="collapse navbar-collapse navbar-right" role="Navigation">
@@ -137,7 +137,7 @@
             <li><a data-scroll href="#about">Overview</a></li>
             <li><a data-scroll href="#features">Important Features</a></li>
             <li><a data-scroll href="#tableau">Tableau</a></li>
-            <li><a data-scroll href="#portfolio">Stellar Objects</a></li>
+            <li><a data-scroll href="#objects">Stellar Objects</a></li>
             <!-- <li><a data-scroll href="#our-team">Team</a></li> -->
           </ul>
         </nav>
@@ -184,7 +184,7 @@
     </section> -->
           <!-- end container -->
       <!-- Start features container -->
-    <section id="features" class="section">
+    <section id="features" class="parallax-section section section-bg overly">
       <div class="container">
         <div class="row">
           <!-- section title -->
@@ -195,14 +195,14 @@
           <!-- /section title -->
           <div class="clearfix">
             <!-- single blog post -->
+            <div class="col-md-6">
+                <img class="img-responsive" src="./dashboard/images/about/filters-ugrizy.png" alt="" style="background-color: aliceblue">
+            </div>
             <article class="clearfix wow fadeInUp" data-wow-duration="500ms">
               <div class="post-block">
                 <div class="content">
                   <h3>
-                    <a
-                      href="https://lsst-epo.github.io/formal-ed-investigations/coloring-the-universe/"
-                      >Astronomical Filters</a
-                    >
+                    <a>Astronomical Filters</a>
                   </h3>
                   <p>
                     The u filter transmits ultraviolet light and the z filter
@@ -213,28 +213,19 @@
                     g, r, and i filters transmit visible light our eyes can see.
                   </p>
                 </div>
-<!-- Button -->
-                <div class="media-wrapper">
-                  <img
-                    src="https://lsst-epo.github.io/formal-ed-investigations/coloring-the-universe/assets/images/filters-ugrizy.png"
-                    alt="amazing caves coverimage"
-                    class="img-responsive"
-                    style="background-color: aliceblue"
-                  />
-                </div>
 <!-- Carousel -->
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- <div id="myCarousel" class="c-wrapper" data-ride="carousel"> -->
                   <!-- Indicators -->
-                  <ol class="carousel-indicators">
+                  <!-- <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                     <li data-target="#myCarousel" data-slide-to="1"></li>
                     <li data-target="#myCarousel" data-slide-to="2"></li>
                     <li data-target="#myCarousel" data-slide-to="3"></li>
                     <li data-target="#myCarousel" data-slide-to="4"></li>
-                  </ol>
+                  </ol> -->
                 
                   <!-- Wrapper for slides -->
-                  <div class="carousel-inner">
+                  <!-- <div class="carousel-inner">
                     <div class="item active">
                       <img src="./dashboard/images/carousel/U_count.png" alt="U_graph">
                       <div class="carousel-caption">
@@ -276,10 +267,10 @@
                         </div>  
     
                     </div>
-                  </div>
+                  </div> -->
                 
-                  <!-- Left and right controls -->
-                  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                  <!-- Left and right controls -->      
+                  <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev">
                     <span class="glyphicon glyphicon-chevron-left"></span>
                     <span class="sr-only">Previous</span>
                   </a>
@@ -287,11 +278,11 @@
                     <span class="glyphicon glyphicon-chevron-right"></span>
                     <span class="sr-only">Next</span>
                   </a>
-                </div>
+                </div> -->
 
-              </div>
+              <!-- </div> -->
             </article>
-
+<!-- Button -->
           </div>
           <div class="all-post text-center">
             <a
@@ -307,15 +298,15 @@
     </section>
     <!-- end section -->
 
-    <section id="tableau" class="bg-one section">
+    <section id="tableau" class="parallax-section bg-one section">
       <div class="container">
         <div class="row">
           <div class="title text-center wow fadeIn" data-wow-duration="500ms">
             <h2>Tableau <span class="color">Dashboard</span></h2>
             <iframe
-              src="https://public.tableau.com/views/GalaxyStarsandQSOViz/Story1?:language=en-US&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true"
-              width="100%"
-              height="955"
+              src="https://public.tableau.com/shared/FBGN5372T?:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true"
+              width="80%"
+              height="800"
               frameborder="0"
             ></iframe>
             <div class="border"></div>
@@ -324,7 +315,7 @@
       </div>
     </section>
 <!-- New -->
-    <section id="portfolio" class="bg-one about section">
+    <section id="objects" class="bg-one about section">
       <div class="container">
         <div class="row">
           <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
