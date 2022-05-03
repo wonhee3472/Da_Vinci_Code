@@ -6,51 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- <link rel="stylesheet" href="css/style.css" /> -->
     <title>Stars Quiz</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700");
+      @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,600");
+      * {
+        background-color: #353b43;
+        font-family: "Anaheim", sans-serif;
+        color: white;
+        -webkit-font-smoothing: antialiased;
+      }
+      #quiz {
+        display: flex;
+        justify-content: space-evenly;
+      }
+      section {
+        margin-top: 100px;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
     <h1>Star Quiz</h1>
+    <h2>
+      Try your best to answer the following questions and see how many questions
+      you answered correctly.
+    </h2>
     <form id="quiz" name="quiz">
-      <p>
-        <br />
+      <div>
+        <p>1. Do you see a star in the image below?</p>
         <img src="images/Star/Star_1.jfif" class="star_image" /><br /><br />
-        1. Is this a star?<br />
         <input type="radio" id="mc" name="question1" value="star" />Yes <br />
         <input type="radio" id="mc" name="question1" value="nostar" />No <br />
-      </p>
-      <p>
-        <br />
+      </div>
+      <div>
+        <p>2. Do you see a star in the image below?</p>
         <img src="images/Star/Star_2.jfif" class="star_image" /><br /><br />
-        2. Is this a star?<br />
         <input type="radio" id="mc" name="question2" value="star" />Yes<br />
         <input type="radio" id="mc" name="question2" value="nostar" />No<br />
-      </p>
-      <p>
-        <br />
+      </div>
+      <div>
+        <p>3. Do you see a star in the image below?</p>
         <img src="images/Star/Star_3.jfif" class="star_image" /><br /><br />
-        3. Is this a star?<br />
         <input type="radio" id="mc" name="question3" value="star" />Yes<br />
         <input type="radio" id="mc" name="question3" value="nostar" />No<br />
-      </p>
-      <p>
-        <br />
+      </div>
+      <div>
+        <p>4. Do you see a star in the image below?</p>
         <img src="images/Star/Star_4.jfif" class="star_image" /><br /><br />
-        4. Is this a star?<br />
         <input type="radio" id="mc" name="question4" value="star" />Yes<br />
         <input type="radio" id="mc" name="question4" value="nostar" />No<br />
-      </p>
-      <p>
-        <br />
+      </div>
+      <div>
+        <p>5. Do you see a star in the image below?</p>
         <img src="images/Star/Star_5.jfif" class="star_image" /><br /><br />
-        5. Is this a star?<br />
         <input type="radio" id="mc" name="question5" value="star" />Yes<br />
         <input type="radio" id="mc" name="question5" value="nostar" />No<br />
-      </p>
-      <input id="button" type="button" value="Submit" onclick="check();" />
+      </div>
     </form>
-    <div id="after_submit">
-      <p id="number_correct"></p>
-    </div>
-    <button onclick="myFunction()">Retake</button>
+    <section>
+      <input id="button" type="button" value="Submit" onclick="check();" />
+      <div id="after_submit">
+        <p id="number_correct"></p>
+      </div>
+      <button onclick="myFunction()">Retake</button>
+    </section>
     <script src="js/quiz.js"></script>
   </body>
 </html>
